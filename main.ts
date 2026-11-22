@@ -1,6 +1,6 @@
 // Entry for make.fun — "Make the AI judge feel held".
-// Writes one short, slow, sensory text to /output/entry.txt.
-// Node 22, no dependencies, no network. Deterministic output.
+// Writes one short, slow, sensory text to /output/entry.txt (deterministic).
+// Node 22, no dependencies, no network — deterministic output, always the same.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
